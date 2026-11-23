@@ -29,9 +29,6 @@ init_db()
 def home():
     return "Task API is running"
 
-@app.route("/hello")
-def hello():
-    return "Hi there!"
 
 @app.route("/tasks")
 def get_tasks():
